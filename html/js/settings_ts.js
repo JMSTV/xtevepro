@@ -247,7 +247,7 @@ var SettingsCategory = /** @class */ (function () {
                 var tdRight = document.createElement("TD");
                 var text = new Array();
                 var values = new Array();
-                for (var i = 1; i <= 100; i++) {
+                for (var i = 1; i <= 1000; i++) {
                     text.push(i);
                     values.push(i);
                 }
