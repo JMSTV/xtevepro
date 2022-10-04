@@ -904,7 +904,7 @@ function openPopUp(dataType, element) {
             if (SERVER["settings"]["buffer"] != "-") {
                 var text = new Array();
                 var values = new Array();
-                for (var i = 1; i <= 100; i++) {
+                for (var i = 1; i <= 1000; i++) {
                     text.push(i.toString());
                     values.push(i.toString());
                 }
@@ -974,7 +974,7 @@ function openPopUp(dataType, element) {
             if (SERVER["settings"]["buffer"] != "-") {
                 var text = new Array();
                 var values = new Array();
-                for (var i = 1; i <= 100; i++) {
+                for (var i = 1; i <= 1000; i++) {
                     text.push(i.toString());
                     values.push(i.toString());
                 }
